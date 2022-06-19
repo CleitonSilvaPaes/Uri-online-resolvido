@@ -13,6 +13,7 @@ else {
     document.write(`A soma dos impares entre ${n1} e ${n2} é: ${pegarImpar(n2, n1)}`);
 }
 
+
 function pegarImpar(n1, n2) {
     let somaN = 0;
     for (let i = n2+1; i < n1; i++) {
