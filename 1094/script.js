@@ -10,15 +10,7 @@ for (let i = 0; i < nVezes; i++) {
         qtaAnimal = prompt().split(' ')
         qtaAnimal[1] = qtaAnimal[1].toUpperCase()
     }
-        if (qtaAnimal[1] == 'C') {
-        dictA[qtaAnimal[1]] += parseInt(qtaAnimal[0])
-        console.log(dictA);
-    } else if (qtaAnimal[1] == 'R') {
-        dictA[qtaAnimal[1]] += parseInt(qtaAnimal[0])
-        console.log(dictA);
-    } else{
-        dictA[qtaAnimal[1]] += parseInt(qtaAnimal[0])
-    }
+    dictA[qtaAnimal[1]] += parseInt(qtaAnimal[0])
 }
 let total = dictA['C'] + dictA['R'] + dictA['S']
 let totalC = dictA['C']
